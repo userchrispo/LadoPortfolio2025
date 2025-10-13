@@ -1,2 +1,2 @@
 # LadoPortfolio2025
-my portfolio 
+my current portfolio, short introduction and showcase of my projects
