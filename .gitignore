@@ -1,0 +1,27 @@
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# IDE folders
+.vscode/
+.idea/
+*.swp
