@@ -8,6 +8,27 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode Styles */
+body[data-theme="light"] {
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+}
+
+body[data-theme="light"] .name1,
+body[data-theme="light"] .text1,
+body[data-theme="light"] .h1 {
+  color: #1a1a1a;
+}
+
+body[data-theme="light"] .resume-button {
+  color: #1a1a1a;
+}
+
+body[data-theme="light"] footer {
+  color: #666 !important;
 }
 
 .container {
@@ -64,6 +85,12 @@ main {
 
 .img {
   height: 40px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.img:hover {
+  opacity: 0.7;
 }
 
 .social-links {
