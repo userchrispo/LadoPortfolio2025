@@ -1,145 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LL Projects</title>
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/projects.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <div class="h-left">
-          <a class="h1" href="index.html">home</a>
-          <a class="h1" href="projects.html">projects</a>
-        </div>
-        <div class="h-right">
-          <img class="img" src="img/brightness.png" alt="Theme Toggle" />
-        </div>
-      </header>
 
-      <main>
-        <section class="projects-section">
-          <h2 class="section-heading">Projects</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LL Projects</title>
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/projects.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+</head>
 
-          <div class="projects-grid">
-            <a
-              href="https://github.com/userchrispo/ClientSync"
-              class="project-card"
-            >
-              <div class="project-image-wrapper">
-                <img
-                  class="project-image"
-                  src="pro/clientsycv3a.png"
-                  alt="Project 1"
-                />
-                <div class="project-overlay">
-                  <span class="view-project">View Project →</span>
-                </div>
-              </div>
-              <div class="project-content">
-                <h3 class="project-title">ClientSync</h3>
-                <p class="project-description">
-                  ClientSync helps freelancers and small businesses stay
-                  organized by keeping all client details, projects, and reports
-                  together in one easy-to-use dashboard.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-badge">HTML</span>
-                  <span class="tech-badge">CSS</span>
-                  <span class="tech-badge">JavaScript</span>
-                  <span class="tech-badge">Node.js</span>
-                  <span class="tech-badge">MongoDB</span>
-                  <span class="tech-badge">Express.js</span>
-                </div>
-              </div>
-            </a>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="h-left">
+        <a class="h1" href="index.html">home</a>
+        <a class="h1" href="projects.html">projects</a>
+      </div>
+      <div class="h-right">
+        <img class="img" src="img/brightness.png" alt="Theme Toggle" />
+      </div>
+    </header>
 
-            <a
-              href="https://github.com/userchrispo/Soccer-Analyzer"
-              class="project-card"
-            >
-              <div class="project-image-wrapper">
-                <img class="project-image" src="pro/c++.png" alt="Project 3" />
+    <main>
+      <section class="projects-section">
+        <h2 class="section-heading">Projects</h2>
 
-                <div class="project-overlay">
-                  <span class="view-project">View Project →</span>
-                </div>
+        <div class="projects-grid">
+          <div class="project-card" data-title="ServiceLoop"
+            data-description="A full-stack SaaS CRM platform for service businesses to manage customer relationships, automate outreach campaigns, and track sales pipelines. Features include customer segmentation, email/SMS marketing, analytics dashboards, and Stripe-integrated billing."
+            data-image="img/serviceloop1.png"
+            data-tech="React,TypeScript,Vite,Tailwind CSS,Framer Motion,Supabase,PostgreSQL" data-github=""
+            data-status="coming-soon">
+            <div class="project-image-wrapper">
+              <img class="project-image" src="img/serviceloop1.png" alt="ServiceLoop" />
+              <div class="project-overlay">
+                <span class="view-project">Coming Soon...</span>
               </div>
-              <div class="project-content">
-                <h3 class="project-title">Soccer Analysis System</h3>
-                <p class="project-description">
-                  a C++ program that analyzes Premier League matches from
-                  2010–2021 to figure out which teams performed the best.
-                  Instead of just looking at final scores, it digs into the
-                  deeper stats such as possession numbers, shots on target,
-                  corners, fouls, passes, clearances and more to show why
-                  certain teams came out on top and how their playing style
-                  influenced their results.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-badge">C++</span>
-                </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ServiceLoop</h3>
+              <p class="project-description">
+                A full-stack SaaS CRM platform for service businesses to manage
+                customer relationships, automate outreach campaigns, and track
+                sales pipelines. Features customer segmentation, email/SMS marketing,
+                analytics dashboards, and Stripe-integrated billing.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">Vite</span>
+                <span class="tech-badge">Tailwind CSS</span>
+                <span class="tech-badge">Framer Motion</span>
+                <span class="tech-badge">Supabase</span>
+                <span class="tech-badge">PostgreSQL</span>
               </div>
-            </a>
-
-            <a href="projects.html" class="project-card">
-              <div class="project-image-wrapper">
-                <img
-                  class="project-image"
-                  src="pro/echomood.png"
-                  alt="Project 4"
-                />
-
-                <div class="project-overlay">
-                  <span class="view-project">Coming Soon...</span>
-                </div>
-              </div>
-              <div class="project-content">
-                <h3 class="project-title">EchoMood</h3>
-                <p class="project-description">
-                  a smart media discovery app that tunes into your feelings.
-                  Whether you're feeling anxious, happy, or nostalgic, our AI
-                  matches your mood with the perfect song, book, or film — just
-                  swipe, save, and vibe
-                </p>
-                <div class="project-tech"></div>
-              </div>
-            </a>
-
-            <a href="" class="project-card">
-              <div class="project-image-wrapper">
-                <img class="project-image" alt="" />
-                <div class="project-overlay">
-                  <span class="view-project">Coming Soon...</span>
-                </div>
-              </div>
-              <div class="project-content">
-                <h3 class="project-title">Vita Engine</h3>
-                <p class="project-description">
-                  A gamified productivity system in C++ that tracks your daily
-                  habits. You gain XP by completing tasks, and earn badges and
-                  streaks when you don't miss a day.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-badge">C++</span>
-                </div>
-              </div>
-            </a>
+            </div>
           </div>
-        </section>
-      </main>
 
-      <footer
-        style="
+          <div class="project-card" data-title="Soccer Analysis System"
+            data-description="A C++ program that analyzes Premier League matches from 2010–2021 to figure out which teams performed the best. Instead of just looking at final scores, it digs into the deeper stats such as possession numbers, shots on target, corners, fouls, passes, clearances and more to show why certain teams came out on top and how their playing style influenced their results."
+            data-image="pro/c++.png" data-tech="C++" data-github="https://github.com/userchrispo/Soccer-Analyzer"
+            data-status="live">
+            <div class="project-image-wrapper">
+              <img class="project-image" src="pro/c++.png" alt="Soccer Analysis System" />
+              <div class="project-overlay">
+                <span class="view-project">View Details →</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Soccer Analysis System</h3>
+              <p class="project-description">
+                A C++ program that analyzes Premier League matches from
+                2010–2021 to figure out which teams performed the best.
+                Instead of just looking at final scores, it digs into the
+                deeper stats such as possession numbers, shots on target,
+                corners, fouls, passes, clearances and more to show why
+                certain teams came out on top and how their playing style
+                influenced their results.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge">C++</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="ClientSync"
+            data-description="ClientSync helps freelancers and small businesses stay organized by keeping all client details, projects, and reports together in one easy-to-use dashboard."
+            data-image="pro/clientsycv3a.png" data-tech="HTML,CSS,JavaScript,Node.js,MongoDB,Express.js"
+            data-github="https://github.com/userchrispo/ClientSync" data-status="live">
+            <div class="project-image-wrapper">
+              <img class="project-image" src="pro/clientsycv3a.png" alt="ClientSync" />
+              <div class="project-overlay">
+                <span class="view-project">View Details →</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ClientSync</h3>
+              <p class="project-description">
+                ClientSync helps freelancers and small businesses stay
+                organized by keeping all client details, projects, and reports
+                together in one easy-to-use dashboard.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge">HTML</span>
+                <span class="tech-badge">CSS</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">MongoDB</span>
+                <span class="tech-badge">Express.js</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-title="Vita Engine"
+            data-description="A gamified productivity system in C++ that tracks your daily habits. You gain XP by completing tasks, and earn badges and streaks when you don't miss a day."
+            data-image="" data-tech="C++" data-github="" data-status="coming-soon">
+            <div class="project-image-wrapper">
+              <img class="project-image" alt="Vita Engine" />
+              <div class="project-overlay">
+                <span class="view-project">Coming Soon...</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Vita Engine</h3>
+              <p class="project-description">
+                A gamified productivity system in C++ that tracks your daily
+                habits. You gain XP by completing tasks, and earn badges and
+                streaks when you don't miss a day.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge">C++</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer style="
           display: flex;
           justify-content: center;
           align-items: center;
@@ -147,11 +150,27 @@
           padding: 20px 0;
           font-size: 14px;
           color: #666;
-        "
-      >
-        <p>© 2025 Lado Logga.</p>
-      </footer>
+        ">
+      <p>© 2025 Lado Logga.</p>
+    </footer>
+  </div>
+  <!-- Project Modal -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-image-wrapper">
+        <img class="modal-image" id="modalImage" src="" alt="" />
+      </div>
+      <div class="modal-body">
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <p class="modal-description" id="modalDescription"></p>
+        <div class="modal-tech" id="modalTech"></div>
+        <a class="modal-button" id="modalButton" href="" target="_blank">View Project on GitHub →</a>
+      </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
