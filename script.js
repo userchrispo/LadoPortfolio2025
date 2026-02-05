@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const tech = this.dataset.tech;
       const github = this.dataset.github;
       const status = this.dataset.status;
+      const link = this.dataset.link;
 
       // Populate modal content
       modalTitle.textContent = title;
@@ -74,9 +75,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       }
 
-      // Handle GitHub button
-      if (github && status === 'live') {
+      // Handle button - prioritize website link, then GitHub
+      if (link) {
+        modalButton.href = link;
+        modalButton.textContent = 'View Website →';
+        modalButton.classList.remove('hidden');
+      } else if (github && status === 'live') {
         modalButton.href = github;
+        modalButton.textContent = 'View Project on GitHub →';
         modalButton.classList.remove('hidden');
       } else {
         modalButton.classList.add('hidden');
