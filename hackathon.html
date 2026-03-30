@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LL Hackathons</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <style>
+      .award-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        background: linear-gradient(135deg, #fbbf24, #f59e0b);
+        color: #1a1a1a;
+        border-radius: 24px;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: "Space Grotesk", sans-serif;
+        box-shadow: 0 2px 12px rgba(245, 158, 11, 0.3);
+        animation: badgeGlow 2s ease-in-out infinite alternate;
+      }
+      .award-badge.top-10 {
+        background: linear-gradient(135deg, #e2e8f0, #94a3b8);
+        color: #1a1a1a;
+        box-shadow: 0 2px 12px rgba(148, 163, 184, 0.3);
+        animation: badgeGlowSilver 2s ease-in-out infinite alternate;
+      }
+      .award-badge.hackathon-name {
+        background: #2a2a2a;
+        color: #f0efef;
+        border: 1px solid #444;
+        box-shadow: none;
+        animation: none;
+        font-weight: 500;
+      }
+      body[data-theme="light"] .award-badge.hackathon-name {
+        background: #f0f0f0;
+        color: #1a1a1a;
+        border-color: #d0d0d0;
+      }
+      .award-badge .award-icon {
+        font-size: 18px;
+      }
+      @keyframes badgeGlow {
+        from { box-shadow: 0 2px 12px rgba(245, 158, 11, 0.2); }
+        to { box-shadow: 0 4px 20px rgba(245, 158, 11, 0.5); }
+      }
+      @keyframes badgeGlowSilver {
+        from { box-shadow: 0 2px 12px rgba(148, 163, 184, 0.2); }
+        to { box-shadow: 0 4px 20px rgba(148, 163, 184, 0.5); }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="h-left">
+          <a class="h1" href="index.html">home</a>
+          <a class="h1" href="projects.html">projects</a>
+          <a class="h1" href="hackathon.html">hackathons</a>
+        </div>
+        <div class="h-right">
+          <img class="img" src="img/brightness.png" alt="Theme Toggle" />
+        </div>
+      </header>
+
+      <main>
+        <section class="projects-section">
+          <h2 class="section-heading">Hackathons</h2>
+
+          <div class="projects-grid">
+            <div
+              class="project-card"
+              data-title="Pitch Ready"
+              data-description="An AI-powered presentation coach that helps you ace every presentation and interview. Practice with your webcam, see yourself speak, and get real-time AI feedback on eye contact, pacing, and filler words. After the session, users receive a report showing what they did right and how they can improve."
+              data-image="img/pitchready.png"
+              data-tech="React,TypeScript,Vite,Tailwind CSS,AI/ML"
+              data-github=""
+              data-status="live"
+              data-link="https://pitch-ready.xyz/"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  class="project-image"
+                  src="img/pitchready.png"
+                  alt="Pitch Ready"
+                />
+                <div class="project-overlay">
+                  <span class="view-project">View Site →</span>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Pitch Ready</h3>
+                <p class="project-description">
+                  An AI-powered presentation coach that helps you ace every
+                  presentation and interview. Practice with your webcam and get
+                  real-time AI feedback on eye contact, pacing, and filler words.
+                  After the session, receive a report showing what you did right
+                  and how to improve.
+                </p>
+                <div class="project-tech">
+                  <span class="award-badge"><span class="award-icon">🏆</span> Best Design ($50)</span>
+                  <span class="award-badge hackathon-name"><span class="award-icon">💻</span> Laurier CS Hack to the Future</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="project-card"
+              data-title="Talks AI"
+              data-description="An AI-powered cash flow engine for small businesses that simulates 'what-if' scenarios based on financial needs, helping owners prepare for and avoid unexpected challenges. Features predictive forecasting, an AI copilot that alerts you about overdrafts and vendor payouts, and real-time expense tracking."
+              data-image="img/talksai.png"
+              data-tech="React,TypeScript,Vite,Tailwind CSS,Framer Motion,AI/ML"
+              data-github=""
+              data-status="live"
+              data-link="https://talksai-phi.vercel.app/"
+            >
+              <div class="project-image-wrapper">
+                <img
+                  class="project-image"
+                  src="img/talksai.png"
+                  alt="Talks AI"
+                />
+                <div class="project-overlay">
+                  <span class="view-project">View Site →</span>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Talks AI</h3>
+                <p class="project-description">
+                  An AI-powered cash flow engine for small businesses that
+                  simulates "what-if" scenarios based on financial needs,
+                  helping owners prepare for and avoid unexpected challenges.
+                </p>
+                <div class="project-tech">
+                  <span class="award-badge top-10"><span class="award-icon">🏅</span> Top 10</span>
+                  <span class="award-badge hackathon-name"><span class="award-icon">💻</span> Tribe Black Youth AI Hackathon 2026</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 20px 0;
+          font-size: 14px;
+          color: #666;
+        "
+      >
+        <p>© 2026 Lado Logga.</p>
+      </footer>
+    </div>
+   
+    <div class="modal-overlay" id="projectModal">
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <div class="modal-image-wrapper">
+          <img class="modal-image" id="modalImage" src="" alt="" />
+        </div>
+        <div class="modal-body">
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <p class="modal-description" id="modalDescription"></p>
+          <div class="modal-tech" id="modalTech"></div>
+          <a class="modal-button" id="modalButton" href="" target="_blank"
+            >View Website →</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
