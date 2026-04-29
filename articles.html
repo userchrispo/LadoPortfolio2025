@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LL Articles</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .coming-soon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 20px;
+      }
+      .coming-soon h3 {
+        font-size: 28px;
+        font-weight: 500;
+        color: #f0efef;
+        margin: 0 0 12px;
+        font-family: "space-grotesk", sans-serif;
+      }
+      .coming-soon p {
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 1.6;
+        color: #a0a0a0;
+        max-width: 480px;
+        margin: 0;
+        font-family: "space-grotesk", sans-serif;
+      }
+      body[data-theme="light"] .coming-soon h3 {
+        color: #1a1a1a;
+      }
+      body[data-theme="light"] .coming-soon p {
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="h-left">
+          <a class="h1" href="index.html">home</a>
+          <a class="h1" href="projects.html">projects</a>
+          <a class="h1" href="hackathon.html">hackathons</a>
+          <a class="h1" href="things-i-love.html">things i love</a>
+          <a class="h1" href="articles.html">articles</a>
+        </div>
+        <div class="h-right">
+          <img class="img" src="img/brightness.png" alt="Theme Toggle" />
+        </div>
+      </header>
+
+      <main>
+        <section class="projects-section">
+          <h2 class="section-heading">Articles</h2>
+
+          <div class="coming-soon">
+            <h3>Coming soon...</h3>
+            <p>
+              A space where I share what I'm learning while coding, the
+              problems I run into and how I work through them, and the life
+              experiences shaping the way I think along the way. New pieces
+              are on the way, check back soon.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 20px 0;
+          font-size: 14px;
+          color: #666;
+        "
+      >
+        <p>© 2026 Lado Logga.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
