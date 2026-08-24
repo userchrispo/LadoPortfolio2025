@@ -212,54 +212,6 @@
         color: #555;
       }
 
-      /* Food — featured single card */
-      .food-card {
-        display: flex;
-        align-items: stretch;
-        background: #141414;
-        border: 1px solid #1f1f1f;
-        border-radius: 14px;
-        overflow: hidden;
-        max-width: 520px;
-      }
-      body[data-theme="light"] .food-card {
-        background: #ffffff;
-        border-color: #e6e6e6;
-      }
-      .food-card img {
-        width: 180px;
-        height: 180px;
-        object-fit: cover;
-        flex-shrink: 0;
-      }
-      .food-text {
-        padding: 20px 22px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-      .food-text h4 {
-        margin: 0 0 6px;
-        font-size: 22px;
-        font-weight: 600;
-        color: #f0efef;
-        font-family: "Space Grotesk", sans-serif;
-      }
-      .food-text p {
-        margin: 0;
-        font-size: 14px;
-        font-weight: 300;
-        color: #a0a0a0;
-        line-height: 1.5;
-        font-family: "Space Grotesk", sans-serif;
-      }
-      body[data-theme="light"] .food-text h4 {
-        color: #1a1a1a;
-      }
-      body[data-theme="light"] .food-text p {
-        color: #555;
-      }
-
       /* Quotes */
       .quotes-grid {
         display: grid;
@@ -412,17 +364,6 @@
       }
       body[data-theme="light"] .repeat-artist {
         color: #777;
-      }
-
-      @media (max-width: 600px) {
-        .food-card {
-          flex-direction: column;
-          max-width: 100%;
-        }
-        .food-card img {
-          width: 100%;
-          height: 200px;
-        }
       }
     </style>
   </head>
@@ -751,8 +692,8 @@
               <div class="repeat-card">
                 <div class="repeat-cover">
                   <img
-                    src="img/favs/song-somebodylovesme.jpg"
-                    alt="SOMEBODY LOVES ME"
+                    src="img/favs/song-everythingigot.jpg"
+                    alt="EVERYTHING I GOT"
                   />
                   <svg
                     class="play-icon"
@@ -765,13 +706,16 @@
                   </svg>
                 </div>
                 <div class="repeat-text">
-                  <p class="repeat-track">SOMEBODY LOVES ME</p>
-                  <p class="repeat-artist">Drake &amp; PND</p>
+                  <p class="repeat-track">EVERYTHING I GOT</p>
+                  <p class="repeat-artist">Paxslim</p>
                 </div>
               </div>
               <div class="repeat-card">
                 <div class="repeat-cover">
-                  <img src="img/favs/song-letterhome.jpg" alt="Letter Home" />
+                  <img
+                    src="img/favs/song-burningbridges.jpg"
+                    alt="Burning Bridges"
+                  />
                   <svg
                     class="play-icon"
                     width="22"
@@ -783,8 +727,8 @@
                   </svg>
                 </div>
                 <div class="repeat-text">
-                  <p class="repeat-track">Letter Home</p>
-                  <p class="repeat-artist">Childish Gambino</p>
+                  <p class="repeat-track">Burning Bridges</p>
+                  <p class="repeat-artist">Drake</p>
                 </div>
               </div>
               <div class="repeat-card">
@@ -820,10 +764,7 @@
                 <div class="soccer-text">
                   <span class="role">The Club</span>
                   <h4>Arsenal F.C.</h4>
-                  <p>
-                    Got my hopes up just to let me down countless times, but
-                    I'll never switch up on them.
-                  </p>
+                  <p>Best team in the world.</p>
                 </div>
               </div>
               <div class="soccer-card">
@@ -835,7 +776,7 @@
                 <div class="soccer-text">
                   <span class="role">Favourite Player</span>
                   <h4>Neymar Jr.</h4>
-                  <p>In my opinion, the greatest dribbler ever.</p>
+                  <p>GOAT.</p>
                 </div>
               </div>
             </div>
@@ -962,17 +903,6 @@
                   <p class="fav-title">Call of Duty: Black Ops III</p>
                   <p class="fav-sub">Treyarch</p>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="fav-section">
-            <h3 class="fav-heading"><span class="accent">/</span> Food</h3>
-            <div class="food-card">
-              <img src="img/favs/food-shawarma.jpg" alt="Shawarma" />
-              <div class="food-text">
-                <h4>Shawarma</h4>
-                <p>I probably eat shawarma 3 times a week.</p>
               </div>
             </div>
           </div>
